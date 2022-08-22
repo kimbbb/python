@@ -129,3 +129,53 @@
 # #30
 # a=input()
 # print(ord(a))
+#
+# #31
+# a=int(input())
+# print(chr(a))
+#
+# #32
+# a=int(input())
+# print(-a)
+#
+# #33
+# a=input()
+# a=ord(a)
+# print(chr(a+1))
+#
+# #34
+# a, b = map(int, input().split())
+# print(a-b)
+#
+# #35
+# a, b = map(float, input().split())
+# print(a*b)
+
+#반복
+# #36
+# a, b = input().split()
+# b=int(b)
+# for i in range(b):
+#     print(a, end='')
+#
+# #37
+# a=int(input())
+# b=input()
+# for i in range(a):
+#     print(b, end='')
+#
+# #38
+# a, b = map(int, input().split())
+# print(a**b)
+#
+# #39
+# f1, f2=map(float, input().split())
+# print(f1**f2)
+#
+# #40
+# a, b = map(int, input().split())
+# print(a//b)
+#
+##41
+# a, b = map(int, input().split())
+# print(a%b)
