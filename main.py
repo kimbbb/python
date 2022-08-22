@@ -147,3 +147,13 @@
 # for i in range(1,a*b):
 #     if a%i==0 and b%i==0:
 #         print(i, end=" ")
+
+
+# A=int(input())
+# B=int(input())
+# sum=0
+# for i in range(1, A+1):
+#     if i%B==0:
+#         sum+=i
+# print(sum)
+
