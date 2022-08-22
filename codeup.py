@@ -179,3 +179,55 @@
 ##41
 # a, b = map(int, input().split())
 # print(a%b)
+#
+# #42
+# a=float(input())
+# print( format(a, ".2f") )
+#
+# #43
+# f1, f2=map(float, input().split())
+# print(format(f1/f2, '.3f'))
+#
+# #44
+# a, b = map(int, input().split())
+# print(a+b)
+# print(a-b)
+# print(a*b)
+# print(a//b)
+# print(a%b)
+# print(format(a/b,'.2f'))
+#
+# #45
+# a, b, c = map(int, input().split())
+# sum=a+b+c
+# print(sum, end=' ')
+# print(format(sum/3, '.2f'))
+#
+# #46
+# a=int(input())
+# print(a<<1)
+#
+# #47
+# a, b = map(int, input().split())
+# print(a<<b)
+#
+# #48
+# a, b =map(int, input().split())
+# if a<b:
+#     print('True')
+# else:
+#     print('False')
+#
+# #49
+# a, b = map(int, input().split())
+# if a==b:
+#     print('True')
+# else:
+#     print('False')
+#
+# #50
+# a,b=map(int, input().split())
+# if b>=a:
+#     print('True')
+# else:
+#     print('False')
