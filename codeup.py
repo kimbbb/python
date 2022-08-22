@@ -231,3 +231,55 @@
 #     print('True')
 # else:
 #     print('False')
+#
+# #51
+# a,b=map(int, input().split())
+# if a!=b:
+#     print('True')
+# else:
+#     print('False')
+#
+# #52
+# a=int(input())
+# if a==0:
+#     print(bool(a))
+# else:
+#     print(bool(a))
+#
+# #53
+# a=bool(int(input()))
+# print(not a)
+#
+# #54
+# a,b=map(int, input().split())
+# print(bool(a) and bool(b))
+#
+# #55
+# a,b=map(int, input().split())
+# print(bool(a) or bool(b))
+#
+##56
+# a,b=map(int, input().split())
+# c = bool(a)
+# d = bool(b)
+# print((c and (not d)) or ((not c) and d))
+#
+# #57
+# a,b=map(int, input().split())
+# c=bool(a)
+# d=bool(b)
+# print((c and d) or (not c)and(not d))
+#
+# #58
+# a, b = map(int, input().split())
+# c=bool(a)
+# d=bool(b)
+# print((not c)and(not d))
+#
+# #60
+# a=int(input())
+# print(~a)
+
+#60
+a, b = map(int, input().split())
+print(a&b)
