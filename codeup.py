@@ -90,7 +90,42 @@
 # print(a[2])
 # print(a[3])
 # print(a[4])
-
-#22
-a=input().split()
-print(a[0:])
+#
+# #22
+# a=input()
+# print(a[0:2], a[2:4], a[4:6])
+#
+#23
+# a,b,c=input().split(':')
+# print(b)
+#
+# #24
+# a,b=input().split()
+# s=a+b
+# print(s)
+#
+# #25
+# a,b=map(int,input().split())
+# print(a+b)
+#
+# #26
+# a=float(input())
+# b=float(input())
+# print(a+b)
+#
+# #27
+# a=int(input())
+# print('%x'%a)
+#
+# #28
+# a=int(input())
+# print('%X'%a)
+#
+# #29
+# a=input()
+# n=int(a,16)
+# print('%o' %n)
+#
+# #30
+# a=input()
+# print(ord(a))
