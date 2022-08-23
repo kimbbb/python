@@ -388,3 +388,98 @@
 #     print('summer')
 # elif a==9 or a==10 or a==11:
 #     print('fall')
+
+
+# A=int(input())
+# B=int(input())
+# sum=0
+#
+# for i in range(1, A+1):
+#     if i%B==0:
+#         sum+=i
+# print(sum)
+
+# a=int(input())
+# b=int(input())
+# count=0
+#
+# for i in range(1, a+1):
+#     if a%i==0:
+#         count+=1
+#         if count==b:
+#             print(i)
+# if count<b:
+#     print(-1)
+
+# a=int(input())
+# xcount=0
+# count=0
+# for i in range(1,a+1):
+#     b=int(input())
+#     if b==0:
+#         xcount+=1
+#     if b==1:
+#         count+=1
+# if xcount>count:
+#     print('재검토 필요')
+# else:
+#     print('출시')
+
+# N=int(input())
+# sum=0
+# count=0
+# min=100
+# for i in range(1, N+1):
+#     a=int(input())
+#     if a%2==0:
+#         sum+=a
+#         count+=1
+#         if a<min:
+#             min=a
+#
+# if sum==0:
+#     print(-999)
+# else:
+#     print(sum)
+#     print(min)
+
+# a=int(input())
+# b=int(input())
+# c=int(input())
+# count=0
+# cafe=a+b
+#
+# while True:
+#     count+=cafe//c
+#     cafe=cafe//c+cafe%c
+#
+#     if cafe<c:
+#         break
+# print(count)
+
+# count=0
+# a=int(input())
+#
+# while a>=3:
+#     if a%50==0:
+#         a-=50
+#         count+=1
+#     elif a%50!=0:
+#         a-=30
+#         count+=1
+#     elif a==0:
+#         break
+# if a!=0:
+#     print(-1)
+# else:
+#     print(count)
+
+a=int(input())
+star=1
+space=a-1
+for i in range(1,a+1):
+    # print('*'*star)
+    # star+=1
+    print(' '*space+'*'*star)
+    star+=1
+    space-=1
