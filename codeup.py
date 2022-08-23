@@ -151,7 +151,6 @@
 # a, b = map(float, input().split())
 # print(a*b)
 
-#반복
 # #36
 # a, b = input().split()
 # b=int(b)
@@ -279,7 +278,113 @@
 # #60
 # a=int(input())
 # print(~a)
-
-#60
-a, b = map(int, input().split())
-print(a&b)
+#
+# #60
+# a, b = map(int, input().split())
+# print(a&b)
+#
+# #61
+# a,b = map(int, input().split())
+# print(a|b)
+#
+# #62
+# a,b = map(int, input().split())
+# print(a^b)
+#
+# #63
+# a, b = map(int, input().split())
+# if a>=b:
+#     print(a)
+# else:
+#     print(b)
+#
+# #64
+# a,b,c=map(int, input().split())
+# if a<b and a<c:
+#     print(a)
+# elif b<a and b<c:
+#     print(b)
+# elif c<a and c<b:
+#     print(c)
+# elif a==b and a<c:
+#     print(a)
+# elif a==c and a<b:
+#     print(a)
+# elif c==b and c<a:
+#     print(c)
+# else:
+#     print(a)
+#
+# #65
+# a,b,c=map(int, input().split())
+# if a%2==0:
+#     print(a)
+# if b%2==0:
+#     print(b)
+# if c%2==0:
+#     print(c)
+#
+# #66
+# a, b, c = map(int, input().split())
+# if a%2==0:
+#     print('even')
+# else:
+#     print('odd')
+#
+# if b%2==0:
+#     print('even')
+# else:
+#     print('odd')
+#
+# if c%2==0:
+#     print('even')
+# else:
+#     print('odd')
+#
+# #67
+# a=int(input())
+# if a<=-1:
+#     if a%2==0:
+#         print('A')
+#     if a%2!=0:
+#         print('B')
+# if a>=0:
+#     if a%2==0:
+#         print('C')
+#     if a%2!=0:
+#         print('D')
+#
+# #68
+# n=int(input())
+# if n>=90:
+#     print('A')
+# elif n>=70:
+#     print('B')
+# elif n>=40:
+#     print('C')
+# else:
+#     print('D')
+#
+# #69
+# a= input()
+# if a=='A':
+#     print('best!!!')
+# elif a=='B':
+#     print('good!!')
+# elif a=='C':
+#     print('run!')
+# elif a=='D':
+#     print('slowly~')
+# else:
+#     print('what?')
+#
+# #70
+# a=int(input())
+# if a==12 or a==1 or a==2:
+#     print('winter')
+# elif a==3 or a==4 or a==5:
+#     print('spring')
+# elif a==6 or a==7 or a==8:
+#     print('summer')
+# elif a==9 or a==10 or a==11:
+#     print('fall')
