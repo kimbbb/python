@@ -474,12 +474,114 @@
 # else:
 #     print(count)
 
-a=int(input())
-star=1
-space=a-1
-for i in range(1,a+1):
-    # print('*'*star)
-    # star+=1
-    print(' '*space+'*'*star)
-    star+=1
-    space-=1
+# a=int(input())
+# star=1
+# space=a-1
+# for i in range(1,a+1):
+#     # print('*'*star)
+#     # star+=1
+#     print(' '*space+'*'*star)
+#     star+=1
+#     space-=1
+
+# #71
+# while True:
+#     a=int(input())
+#
+#     if a==0:
+#         break
+#     else:
+#         print(a)
+
+#
+# #72
+# a=int(input())
+# for i in range(1,a+1):
+#     print(a)
+#     a-=1
+
+# #73
+# a=int(input())
+# for i in range(1, a+1):
+#     print(a-i)
+
+
+# #74
+# a=input()
+# a=ord(a)
+# count=a-96
+# sum=97
+# for i in range(count):
+#     print(chr(sum), end=' ')
+#     sum += 1
+
+# #75
+# a=int(input())
+# for i in range(a+1):
+#     print(i)
+
+#76
+# a=int(input())
+# for i in range(a+1):
+#     print(i)
+
+# #77
+# a=int(input())
+# sum=0
+# for i in range(a+1):
+#     if i%2==0:
+#         sum+=i
+# print(sum)
+
+# #78
+# while True:
+#     a = input()
+#     if a=='q':
+#         print(a)
+#         break
+#     else:
+#         print(a)
+
+# #79
+# a=int(input())
+# sum=0
+# count=0
+# for i in range(1, a+1):
+#     if sum>=a:
+#         print(count)
+#         break
+#     else:
+#         sum+=i
+#         count+=1
+
+# #80
+# n,m=map(int, input().split())
+# dice=0
+# max=0
+# if n>m:
+#     max=n
+# else:
+#     max=m
+# for i in range(1, n+1):
+#     for j in range(1, m+1):
+#         print(i, j)
+
+# #1~n까지의 수 중 마지막 수에 1이 몇 개 들어있는지
+# n=int(input())
+# count=0
+# sum=0
+# for i in range(1, n+1):
+#     count+=1
+#     if count%10==1:
+#         sum+=1
+# print(sum)
+#
+# #최댓값
+# #입력->또입력->최댓값
+# a=int(input())
+# max=0
+# for i in range(a):
+#     b=int(input())
+#     if b>max:
+#         max=b
+# print(max)
