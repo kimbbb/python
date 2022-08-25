@@ -616,24 +616,24 @@
 # h, b, c, s=map(int, input().split())
 # sum=h*b*c*s
 # mb=sum/8/1024/1024
-# print(round(mb, 1,'MB'))
+# print(round(mb, 1),'MB')
 
 #85
 # w,h,b=map(int, input().split())
 # sum=(w*h*b)/8/1024/1024
-# print(round(sum,2), 'MB')
+# print("{:.2f}".format(sum), 'MB')
 
 #86
+# n= int(input())
+# i=0
+# sum=0
 # while True:
-#     count=0
-#     sum=0
-#     a=int(input())
-#     for i in range(1,a+1):
-#         count+=1
-#         sum+=count
-#         if sum>a:
-#             print(sum)
-#             break
+#   sum+=i
+#   i+=1
+#   if(sum>=n):
+#      break
+# print(sum)
+
 
 #87
 # a=int(input())
@@ -643,32 +643,20 @@
 #     print(i, end=' ')
 
 #88
-# a, d, n=map(int, input().split())
-# count = a
-# for i in range(a, n+1):
-#     if i==n:
-#         print(count)
-#         break
-#     count += d
+# a,d,n = map(int, input().split())
+# print(a+d*(n-1))
 
 #89
-# a, r, n=map(int, input().split())
-# count=a
-# for i in range(a, n+1):
-#     count*=r
-#     if i==n:
-#         print(count)
-#         break
+# a,r,n = map(int, input().split())
+# for i in range(n-1):
+#     a = a*r
+# print(a)
 
-#90
+# #90
 # a,m,d,n=map(int, input().split())
-# count=a
-# for i in range(a, n+1):
-#     if i==n:
-#         print(count)
-#         break
-#     count *= m
-#     count += d
+# for i in range(n-1):
+#     a = a*m+d
+# print(a)
 
 #91
 a,b,c=map(int, input().split())
