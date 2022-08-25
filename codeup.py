@@ -585,3 +585,99 @@
 #     if b>max:
 #         max=b
 # print(max)
+
+# #81
+# n=input()
+# n=int(n,16)
+# for i in range(1, 16):
+#     print('%X'%n, '*%X'%i, '=%X'%(n*i), sep='')
+
+# #82
+# a=int(input())
+# for i in range(1, a+1):
+#     if i%10==3 or i%10==6 or i%10==9:
+#         print('X', end=' ')
+#     else:
+#         print(i, end=' ')
+
+# #83
+# r,g,b=map(int, input().split())
+# count=0
+# for i in range(r):
+#     for j in range(g):
+#         for x in range(b):
+#             print(i, end=' ')
+#             print(j, end=' ')
+#             print(x)
+#             count+=1
+# print(count)
+
+#84
+# h, b, c, s=map(int, input().split())
+# sum=h*b*c*s
+# mb=sum/8/1024/1024
+# print(round(mb, 1,'MB'))
+
+#85
+# w,h,b=map(int, input().split())
+# sum=(w*h*b)/8/1024/1024
+# print(round(sum,2), 'MB')
+
+#86
+# while True:
+#     count=0
+#     sum=0
+#     a=int(input())
+#     for i in range(1,a+1):
+#         count+=1
+#         sum+=count
+#         if sum>a:
+#             print(sum)
+#             break
+
+#87
+# a=int(input())
+# for i in range(1, a+1):
+#     if i%3==0:
+#         continue
+#     print(i, end=' ')
+
+#88
+# a, d, n=map(int, input().split())
+# count = a
+# for i in range(a, n+1):
+#     if i==n:
+#         print(count)
+#         break
+#     count += d
+
+#89
+# a, r, n=map(int, input().split())
+# count=a
+# for i in range(a, n+1):
+#     count*=r
+#     if i==n:
+#         print(count)
+#         break
+
+#90
+# a,m,d,n=map(int, input().split())
+# count=a
+# for i in range(a, n+1):
+#     if i==n:
+#         print(count)
+#         break
+#     count *= m
+#     count += d
+
+#91
+a,b,c=map(int, input().split())
+d=1
+while True:
+    if d%a!=0 or d%b!=0 or d%c!=0:
+        d+=1
+    else:
+        print(d)
+        break
+
+
