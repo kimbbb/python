@@ -658,14 +658,160 @@
 #     a = a*m+d
 # print(a)
 
-#91
-a,b,c=map(int, input().split())
-d=1
-while True:
-    if d%a!=0 or d%b!=0 or d%c!=0:
-        d+=1
-    else:
-        print(d)
-        break
+# #91
+# a,b,c=map(int, input().split())
+# d=1
+# while True:
+#     if d%a!=0 or d%b!=0 or d%c!=0:
+#         d+=1
+#     else:
+#         print(d)
+#         break
+
+#1
+# A=int(input())
+# B=int(input())
+# count=0
+#
+# for i in range(1,A+1):
+#     if i%B==0:
+#         count+=i
+# print(count)
+
+#2
+# N=int(input())
+# K=int(input())
+# count=0
+#
+# for i in range(1,N+1):
+#     if N%i==0:
+#         count+=1
+#         if count==K:
+#             print(i)
+# if count<K:
+#     print(-1)
+
+#3
+# for i in range(3):
+#     a, b, c, d = map(int, input().split())
+#     sum=a+b+c+d
+#     if sum==0:
+#         print('D')
+#     elif sum==4:
+#         print('E')
+#     elif sum==1:
+#         print('C')
+#     elif sum==2:
+#         print('B')
+#     elif sum==3:
+#         print('A')
+
+#4
+# A=int(input())
+# count=0
+# nocount=0
+#
+# for i in range(A):
+#     N=int(input())
+#     if N==1:
+#         count+=1
+#     elif N==0:
+#         nocount+=1
+# if count<nocount:
+#     print('신메뉴 재검토 필요')
+# else:
+#     print('신메뉴 출시')
+
+#5
+# N=int(input())
+# sum=0
+# count=0
+# min=100
+#
+# for i in range(N):
+#     a=int(input())
+#     if a%2==0:
+#         sum+=a
+#         if min>a:
+#             min=a
+#     else:
+#         count+=1
+#
+# if count==N:
+#     print(-999)
+# else:
+#     print(sum)
+#     print(min)
+
+#6
+# N=int(input())
+# acount=0
+# bcount=0
+# for i in range(N):
+#     p=input()
+#     if p=='A':
+#         acount+=1
+#     elif p=='B':
+#         bcount+=1
+# if acount>bcount:
+#     print('A')
+# else:
+#     print('B')
+
+#7
+# sum=0
+# count=0
+# while True:
+#     a=int(input())
+#     if a!=-999:
+#         sum+=a
+#         count+=1
+#     else:
+#         break
+# print(sum//count)
+
+#8
+# A=int(input())
+# B=int(input())
+# C=int(input())
+# sum=A+B
+# drink=0
+#
+# while True:
+#     drink+=sum//C
+#     sum=sum%C+sum//C
+#
+#     if sum<C:
+#         break
+
+# A=int(input())
+# B=int(input())
+# C=int(input())
+# sum=A+B
+# drink=0
+#
+# while True:
+#     drink+=sum//C
+#     sum=sum%C+sum//C
+#
+#     if sum<C:
+#         break
+# print(drink)
 
 
+# #9
+# A=int(input())
+# count=0
+# while True:
+#     if A%50==0:
+#         A-=50
+#         count+=1
+#     elif A%50!=0:
+#         A-=30
+#         count+=1
+#     if A==0:
+#         print(count)
+#         break
+#     elif A>0 and A<30:
+#         print(-1)
+#         break
