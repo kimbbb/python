@@ -840,9 +840,89 @@
 # print(a[0:10])
 # print(a[10:])
 
+# #3
+# q=int(input())
+# count=0
+# xcount=0
+# for i in range(q):
+#     a=input()
+
+#coders
+#1
+# a=input()
+# sum=6
+# for i in range(1,len(a)):
+#     if a[i]==a[i-1]:
+#         sum+=3
+#     else:
+#         sum+=6
+# print(sum)
+
+#2
+# a=input()
+# t=0
+# for i in range(0,len(a),10):
+#     print(a[i:i+10])
+
 #3
-q=int(input())
-count=0
-xcount=0
-for i in range(q):
-    a=input()
+# q=int(input())
+# for i in range(q):
+#     o = 0
+#     x = 0
+#     a=input()
+#     for j in range(len(a)):
+#         if a[j]=='O':
+#             o+=1
+#         if a[j]=='X':
+#             x+=1
+#     print(len(a), o, x)
+
+#4
+# a=input()
+# for i in range(len(a)):
+#     if a[i]=='a' or a[i]=='e' or a[i]=='i' or a[i]=='o' or a[i]=='u':
+
+#5
+# A=int(input())
+# B=input()
+# sum=0
+# for i in range(len(B)):
+#     sum+=int(B[i])
+# print(sum)
+
+#4
+# S=input()
+# for i in range(len(S)):
+#     a=ord(S[i])
+#     if a>=88:
+#         a-=23
+#     else:
+#         a += 3
+#     print(chr(a), end='')
+
+#5
+# a=int(input())
+# for i in range(a):
+#     T=input()
+#     N=int(input())
+#     for j in range(len(T)):
+#         print(T[j]*N, end='')
+
+#6
+# a=input()
+# b=input()
+# sum=0
+# for i in range(len(a)):
+#     if a[i]==b:
+#         sum+=1
+# print(sum)
+
+#7
+# a=input()
+# for i in range(len(a)):
+#     b=a[i].isupper()
+#     if b==True:
+#         b=a[i].lower()
+#     elif b==False:
+#         b=a[i].upper()
+#     print(b,end='')
