@@ -815,3 +815,34 @@
 #     elif A>0 and A<30:
 #         print(-1)
 #         break
+
+#coders
+
+#1
+# a=input()
+# b=len(a)
+# sum=6
+# for i in range(b):
+#     if a[i%2==0]=='(':
+#         sum+=3
+#
+#     elif a[i%2==0]!='(' or a[i%2==0]=='(':
+#         sum+=6
+#
+# if a[i%2==0] == '(':
+#     print(sum-3)
+#
+# elif a[i%2==0] != '(' or a[i%2==0] == '(':
+#     print(sum-6)
+
+#2
+# a=input()
+# print(a[0:10])
+# print(a[10:])
+
+#3
+q=int(input())
+count=0
+xcount=0
+for i in range(q):
+    a=input()
