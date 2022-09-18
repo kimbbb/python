@@ -882,6 +882,7 @@
 # for i in range(len(a)):
 #     if a[i]=='a' or a[i]=='e' or a[i]=='i' or a[i]=='o' or a[i]=='u':
 
+
 #5
 # A=int(input())
 # B=input()
@@ -926,3 +927,29 @@
 #     elif b==False:
 #         b=a[i].upper()
 #     print(b,end='')
+
+
+#정수 5개 배열에 한 줄에 저장하고 차례대로 출력
+# a=list(map(int, input().split()))
+# print(a)
+
+#정수 5개 저장하고 출력
+# a=[]
+# for i in range(5):
+#     a.append(int(input()))
+#
+# print(a)
+
+#역순 출력
+# a=list(map(int, input().split()))
+# a.reverse()
+# print(a)
+
+#문자 짝수 출력
+# a=list(input().split())
+# b=0
+# for i in range(len(a)):
+#     b+=1
+#     if b%2==0:
+#         print(a[i], end=' ')
+
