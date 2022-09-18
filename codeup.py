@@ -953,3 +953,96 @@
 #     if b%2==0:
 #         print(a[i], end=' ')
 
+#공백을 기준으로 정수를 입력받아 100이상 수 출력
+# a=list(map(int, input().split()))
+# for i in range(len(a)):
+#     if a[i]>=100:
+#         print(a[i], end=' ')
+
+#10개의 정수를 입력받아 리스트에 저장한 후 오름차순으로 정렬하여 출력
+# a=list(map(int, input().split()))
+# a.sort()
+# print(a)
+
+#10개의 정수를 입력받아 리스트에 저장한 후 내림차순으로 정렬하여 출력하는 프로그램
+# a=list(map(int, input().split()))
+# a.sort()
+# a.reverse()
+# print(a)
+
+#정수를 입력받아 짝수의 개수를 구하는 프로그램
+# a=list(map(int, input().split()))
+# b=0
+# for i in range(len(a)):
+#     if a[i]%2==0:
+#         b+=1
+# print(b)
+
+#정수를 원하는 만큼 배열에 저장하고 모든 요소의 합을 구하는 프로그램
+# a=list(map(int, input().split()))
+# b=0
+# for i in range(len(a)):
+#     b+=a[i]
+# print(b)
+
+#10개의 정수를 입력받아 100미만의 수 중 가장 큰 수와 100이상의 큰 수 중 가장 작은 수 출력
+# a=list(map(int, input().split()))
+# min=1000
+# max=0
+# for i in range(len(a)):
+#     if a[i]>=100 and min>a[i]:
+#         min=a[i]
+#     elif a[i]<100 and max<a[i]:
+#         max=a[i]
+# print(max, min)
+
+#정수를 차례대로 입력받다가 0이 입력되면 0을 제외한 요소들을 차례대로 출력하는 프로그램
+# a=[]
+# while True:
+#     b=int(input())
+#     if b==0:
+#         break
+#     else:
+#         a.append(b)
+#
+# print(a)
+
+#정수를 차례대로 입력받다가 0이 입력되면 0을 제외한 요소 거꾸로 출력
+# a=[]
+# while True:
+#     b=int(input())
+#     if b==0:
+#         break
+#     else:
+#         a.append(b)
+# a.reverse()
+# print(a)
+
+
+#10개의 문자를 입력받아 입력받은 문자를 이어서 출력
+# a=list(input().split())
+# for i in range(len(a)):
+#     print(a[i], end='')
+
+#영문 대문자를 입력받다가 대문자 이외의 문자가 입력되면 입력을 중단하고
+#영문 대문자들에 대하여 1번 이상 입력된 각 문자와 그 문자의 개수를 출력하는 프로그램
+# a=list(input().split())
+# b=[0 for i in range(26)]
+
+#5명의 국어, 수학, 영어, 과학 점수를 받아 평균 80점 이상이면 pass
+#그렇지않으면 fail 출력하는 프로그램
+# pas = 0
+# for i in range(5):
+#     sum=0
+#     a=list(map(int, input().split()))
+#     for j in range(len(a)):
+#         sum+=a[j]
+#     if sum/4>=80:
+#         print('pass')
+#         pas+=1
+#     else:
+#         print('fail')
+# print(pas)
+
+
+
