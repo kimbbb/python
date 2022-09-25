@@ -1026,8 +1026,11 @@
 
 #영문 대문자를 입력받다가 대문자 이외의 문자가 입력되면 입력을 중단하고
 #영문 대문자들에 대하여 1번 이상 입력된 각 문자와 그 문자의 개수를 출력하는 프로그램
-# a=list(input().split())
-# b=[0 for i in range(26)]
+# a=input().split()
+# temp = sorted(set(a))
+# for i in temp:
+#     print('{} : {}'.format(i,a.count(i)))
+
 
 #5명의 국어, 수학, 영어, 과학 점수를 받아 평균 80점 이상이면 pass
 #그렇지않으면 fail 출력하는 프로그램
@@ -1043,6 +1046,82 @@
 #     else:
 #         print('fail')
 # print(pas)
+
+#성적 처리 프로그램
+#학생들의 성적을 입력받아 리스트에 저장.
+#성적의 평균을 구하고 최대, 최소, 80점 이상의 점수를 받은 학생 수를 계산하여 출력하라
+# b=[]
+# peo=0
+# for i in range(5):
+#     a=int(input())
+#     if a>=80:
+#         peo+=1
+#     b.append(a)
+# sum=sum(b)
+# print('성적 평균 :', sum/5)
+# print('최대 점수 :', max(b))
+# print('최소 점수 :', min(b))
+# print('80점 이상 :', peo)
+
+#리스트에서 2번쨰로 큰 수 찾기
+# a=[-7,2,3,8,6,6,75,38,3,2]
+# a.sort()
+# print(a[-2])
+
+#콘테스트
+#최소값과 최대값 리스트에서 제거
+# a=[10.0,9.0,8.3,7.1,3.0,9.0]
+# a.remove(max(a))
+# a.remove(min(a))
+# print(a)
+
+#stack
+# a=[]
+# for i in range(3):
+#     b=input()
+#     a.append(b)
+# a.reverse()
+# print(a)
+
+#친구관리
+# b=[]
+# while True:
+#     print('-'*30)
+#     print('1. 친구 리스트 출력')
+#     print('2. 친구 추가')
+#     print('3. 친구 삭제')
+#     print('4. 이름 변경')
+#     print('9. 종료')
+#     print('-' * 30)
+#
+#     a=int(input('메뉴를 선택하시오 : '))
+#     if a==1:
+#         print(b)
+#     elif a==2:
+#         c=input('추가할 친구의 이름을 입력해주세요 : ')
+#         b.append(c)
+#     elif a==3:
+#         d=input('삭제할 친구의 이름을 입력해주세요 : ')
+#         b.remove(d)
+#     elif a==4:
+#         e=input('기존 이름을 입력해주세요 : ')
+#         b.remove(e)
+#         f=input('새로운 이름을 입력해주세요 : ')
+#         b.append(f)
+#     elif a==9:
+#         break
+#     else:
+#         continue
+
+#리스트 합병 및 복제
+a=[1,2,3,4]
+b=[2,2,2,2]
+print(a+b)
+
+print(a)
+print(b)
+
+
 
 
 
