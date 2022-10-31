@@ -1113,13 +1113,158 @@
 #     else:
 #         continue
 
-#리스트 합병 및 복제
-a=[1,2,3,4]
-b=[2,2,2,2]
-print(a+b)
+#리스트 합병
+# a=[1,2,3,4]
+# b=[2,2,2,2]
+# print(a+b)
+#
+# print(a)
+# print(b)
 
-print(a)
-print(b)
+#리스트 비교
+# list1=[1,2,3]
+# list2=[1,2,3]
+# print(list1==list2)
+# print(list1>list2)
+
+#리스트 얕은 복사
+# temp=[1,2,3,4,5]
+# a=temp
+# print(temp)
+# a[3]=39
+# print(temp)
+
+#리스트 깊은 복사
+# temp=[1,2,3,4,5]
+# a=list(temp) #lsit()는 객체의 생성자. 객체를 생성하고 초기화한다. 다른 객체를 받아서 리스트로 변환함
+
+#슬라이싱
+# a=[1,2,3,4,5,6,7,8,9,10]
+# print(a[:]) #전체
+# print(a[1:4]) #선택 1~3까지 출력
+# print(a[::-1]) #역순
+#시작과 끝 인덱스는 생략이 가능하다.
+
+#고급 슬라이싱
+# a=[1,2,3,4,5,6,7,8,9,10]
+# print(a[2:7:2])
+#    시작 끝 간격
+
+#리스트 변경
+# list = [1,2,3,4,5,6,8]
+# list[0:3]=['하이', '헬로', '바이'] //리스트 일부 변경
+#
+# list[::2]=[99,99,99,99] #중간에 요소 추가
+#
+# list[:]=[] #모든 요소 삭제
+# print(list)
+
+#리스트 변경
+# num=list(range(0,10)) #0~9
+# print(num)
+# del num[-1] #특정 요소 삭제
+# print(num)
+
+
+# N=int(input())
+#
+# def big(a, b):
+#     max=0
+#     if a>b:
+#         max=a
+#     elif b>a:
+#         max=b
+#     elif a==b:
+#         max=123456789
+#     return max
+#
+# for i in range(N):
+#     A,B=map(int,input().split())
+#     c=big(A,B)
+#     print(c)
+
+def sum(A,B):
+    sum=A+B
+    return sum
+def sub(A,B):
+    sub=A-B
+    return sub
+def mul(A,B):
+    sub=A*B
+    return sub
+def div(A,B):
+    sub=A//B
+    return sub
+
+
+# while True:
+#     a=int(input())
+#     if a==0:
+#         break
+#     elif a==1:
+#         A,B=map(int,input().split())
+#         c=sum(A,B)
+#         print(c)
+#     elif a==2:
+#         A,B=map(int,input().split())
+#         c=sub(A,B)
+#         print(c)
+#     elif a==3:
+#         A,B=map(int,input().split())
+#         c=mul(A,B)
+#         print(c)
+#     elif a==4:
+#         A,B=map(int,input().split())
+#         c=div(A,B)
+#         print(c)
+
+# a=list(map(int,input().split()))
+#
+# def sum(a):
+#     plus=0
+#     for i in range(len(a)):
+#         plus+=a[i]
+#     return plus
+#
+# b=sum(a)
+# print(b)
+
+# T=int(input())
+#
+# long = []
+# def lenght(a):
+#     long.append(len(a))
+#     return long
+#
+# for i in range(T):
+#     N=input()
+#     c=lenght(N)
+#
+# for j in range(len(c)):
+#     print(c[j], end=' ')
+
+T=int(input())
+b=[]
+c=[]
+for i in range(T):
+    a,n=map(int, input().split())
+    max = n
+    while True:
+        if n == 1:
+            break
+
+        if n%2==0:
+            n//=2
+        elif n%2!=0:
+            n*=3
+            n+=1
+        if max<n:
+            max=n
+    b.append(a)
+    c.append(max)
+
+for x in range(len(b)):
+    print(b[x], c[x])
 
 
 
